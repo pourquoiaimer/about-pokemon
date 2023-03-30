@@ -18,4 +18,6 @@ git add -A
 
 git commit -m 'deploy'
 
-git push -f https://github.com/pourquoiaimer/The-F2E-4th-week3.git pages
+git push -f https://github.com/pourquoiaimer/about-pokemon.git pages
+
+#https://pourquoiaimer.github.io/about-pokemon/

@@ -6,9 +6,9 @@ function App() {
 
   return (
     <div id="App">
-      <div id='header'></div>
-      <div id='content'></div>
-      <div id='footer'></div>
+      <div id='header'>123</div>
+      <div id='content'>423</div>
+      <div id='footer'>123</div>
     </div>
   )
 }
