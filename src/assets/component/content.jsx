@@ -4,22 +4,23 @@ import $, { ajax } from 'jquery'
 
 function Content(props) {
     // const [allData, setAllData] = useState([])
-    // function getData() {
-    //     let url = "https://pokeapi.co/api/v2/pokemon/1"
-    //     $.ajax({
-    //         url: url, type: 'GET',
-    //         success: function (data) {
-    //             console.log(data);
-    //         },
-    //         error:
-    //             function (err) {
-    //                 console.log(err);
-    //             }
-    //     });
-    // }
-    // useEffect(() => {
-    //     getData()
-    // }, [])
+    function getData() {
+        // let url = "https://pokeapi.co/api/v2/pokemon/1"
+        let url = "https://pokemon.fantasticmao.cn/pokemon/list"
+        $.ajax({
+            url: url, type: 'GET',
+            success: function (data) {
+                console.log(data);
+            },
+            error:
+                function (err) {
+                    console.log(err);
+                }
+        });
+    }
+    useEffect(() => {
+        getData()
+    }, [])
 
 
     function Card() {
@@ -32,7 +33,7 @@ function Content(props) {
                     {props.data}
                 </div>
                 <div>
-                <input type="text" defaultValue={props.data} onBlur={(event) => { changeText(event) }} />
+                    <input type="text" defaultValue={props.data} onBlur={(event) => { changeText(event) }} />
 
                 </div>
             </div>
