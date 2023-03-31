@@ -1,3 +1,66 @@
-div{
-    color: red;
+@font-face {
+  font-family: "BpmfZihiSans-Bold";
+  src: url("../font/BpmfZihiSans-Bold.ttf");
+}
+@font-face {
+  font-family: "BpmfZihiSans-Regular";
+  src: url("../font/BpmfZihiSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "BpmfZihiOnly-R";
+    src: url("../font/BpmfZihiOnly-R.ttf");
+  }
+
+#App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#header {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  min-height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  img {
+    width: auto;
+    height: 40px;
+  }
+}
+#content {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  font-size: 40px;
+//   font-family: "BpmfZihiOnly-R";
+  //   margin-bottom: 50px;
+}
+
+#footer {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  min-height: 50px;
+  background-color: black;
+
+  text-align: right;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  a {
+    color: white;
+    font-size: 18px;
+  }
 }
