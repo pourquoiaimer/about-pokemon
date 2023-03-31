@@ -8,9 +8,9 @@
 }
 
 @font-face {
-    font-family: "BpmfZihiOnly-R";
-    src: url("../font/BpmfZihiOnly-R.ttf");
-  }
+  font-family: "BpmfZihiOnly-R";
+  src: url("../font/BpmfZihiOnly-R.ttf");
+}
 
 #App {
   position: relative;
@@ -42,7 +42,7 @@
   min-height: 100vh;
   height: auto;
   font-size: 40px;
-//   font-family: "BpmfZihiOnly-R";
+  //   font-family: "BpmfZihiOnly-R";
   //   margin-bottom: 50px;
 }
 
@@ -63,4 +63,29 @@
     color: white;
     font-size: 18px;
   }
+}
+
+.card_all {
+  display: flex;
+}
+.card_sample {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  .card_title {
+    font-size: 30px;
+    text-align: center;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  .move_{
+    font-size: 30px;
+    border-bottom: 1px solid black;
+  }
+
 }

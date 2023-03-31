@@ -1,0 +1,63 @@
+[
+    {
+        "no":"005",
+        "name": "火恐龍",
+        "nameEn": "Charmeleon",
+        "url":"https://s1.52poke.wiki/wiki/thumb/4/4a/005Charmeleon.png/300px-005Charmeleon.png",
+
+        "type": [
+            "火"
+        ],
+        "move": [
+            "噴射火焰",
+            "鋼爪",
+            "居合斬",
+            "火花"
+        ]
+    },
+    {
+        "no":"008",
+        "name": "卡咪龜",
+        "nameEn": "Wartortle",
+        "url":"https://s1.52poke.wiki/wiki/thumb/0/0c/008Wartortle.png/300px-008Wartortle.png",
+        "type": [
+            "水"
+        ],
+        "move": [
+            "水槍",
+            "高速旋轉",
+            "泡沫光線"
+        ]
+    },    
+    {
+        "no":"026",
+        "name": "雷丘",
+        "nameEn": "Raichu",
+        "url":"https://s1.52poke.wiki/wiki/thumb/8/88/026Raichu.png/300px-026Raichu.png",
+
+        "type": [
+            "電"
+        ],
+        "move": [
+            "十萬福特",
+            "電光一閃",
+            "鐵尾",
+            "閃電拳"
+        ]
+    },    
+    {
+        "no":"017",
+        "name": "比比鳥",
+        "nameEn": "Pidgeotto",
+        "url":"https://s1.52poke.wiki/wiki/thumb/7/7a/017Pidgeotto.png/300px-017Pidgeotto.png",
+
+        "type": [
+            "一般","飛行"
+        ],
+        "move": [
+            "起風",
+            "空氣斬",
+            "飛天"
+        ]
+    }    
+]
