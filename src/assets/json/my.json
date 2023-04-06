@@ -1,63 +1,118 @@
 [
     {
-        "no":"005",
-        "name": "火恐龍",
-        "nameEn": "Charmeleon",
-        "url":"https://s1.52poke.wiki/wiki/thumb/4/4a/005Charmeleon.png/300px-005Charmeleon.png",
-
+        "no": "6",
+        "no_super": "10034",
+        "name": "噴火龍",
+        "url": "https://s1.52poke.wiki/wiki/thumb/7/7e/006Charizard.png/300px-006Charizard.png",
         "type": [
-            "火"
+            "fire"
         ],
         "move": [
             "噴射火焰",
-            "鋼爪",
-            "居合斬",
-            "火花"
+            "龍爪",
+            "龍息",
+            "空氣斬",
+            "電光一閃",
+            "熱風",
+            "火焰牙"
         ]
     },
     {
-        "no":"008",
-        "name": "卡咪龜",
-        "nameEn": "Wartortle",
-        "url":"https://s1.52poke.wiki/wiki/thumb/0/0c/008Wartortle.png/300px-008Wartortle.png",
+        "no": "9",
+        "name": "水箭龜",
+        "no_super": "10036",
+        "url": "https://s1.52poke.wiki/wiki/thumb/0/02/009Blastoise.png/300px-009Blastoise.png",
         "type": [
-            "水"
+            "water"
         ],
         "move": [
-            "水槍",
+            "水流尾",
             "高速旋轉",
-            "泡沫光線"
+            "咬住",
+            "水之波動",
+            "加農光泡"
         ]
-    },    
+    },
     {
-        "no":"026",
-        "name": "雷丘",
-        "nameEn": "Raichu",
-        "url":"https://s1.52poke.wiki/wiki/thumb/8/88/026Raichu.png/300px-026Raichu.png",
-
+        "no": "3",
+        "no_super": "10033",
+        "name": "妙蛙花",
+        "url": "https://s1.52poke.wiki/wiki/thumb/a/ae/003Venusaur.png/300px-003Venusaur.png",
         "type": [
-            "電"
+            "grass"
+        ],
+        "move": [
+            "藤鞭",
+            "寄生種子",
+            "飛葉快刀",
+            "種子炸彈",
+            "落英繽紛",
+            "光合作用",
+            "花瓣舞"
+        ]
+    },
+    {
+        "no": "26",
+        "name": "雷丘",
+        "url": "https://s1.52poke.wiki/wiki/thumb/8/88/026Raichu.png/300px-026Raichu.png",
+        "type": [
+            "electric"
         ],
         "move": [
             "十萬福特",
             "電光一閃",
             "鐵尾",
-            "閃電拳"
+            "閃電拳",
+            "電球"
         ]
-    },    
+    },
     {
-        "no":"017",
+        "no": "17",
         "name": "比比鳥",
-        "nameEn": "Pidgeotto",
-        "url":"https://s1.52poke.wiki/wiki/thumb/7/7a/017Pidgeotto.png/300px-017Pidgeotto.png",
-
+        "url": "https://s1.52poke.wiki/wiki/thumb/7/7a/017Pidgeotto.png/300px-017Pidgeotto.png",
         "type": [
-            "一般","飛行"
+            "normal",
+            "flying"
         ],
         "move": [
-            "起風",
+            "龍捲風",
             "空氣斬",
-            "飛天"
+            "飛天",
+            "啄",
+            "翅膀攻擊"
         ]
-    }    
+    },
+    {
+        "no": "282",
+        "name": "沙奈朵",
+        "url": "https://s1.52poke.wiki/wiki/thumb/0/00/281Kirlia.png/300px-281Kirlia.png",
+        "type": [
+            "psychic",
+            "fairy"
+        ],
+        "move": [
+            "幻象光線",
+            "催眠術",
+            "吸取之吻",
+            "魅惑之聲",
+            "精神強念",
+            "魔法閃耀"
+        ]
+    },
+    {
+        "no": "51",
+        "name": "三地鼠",
+        "url": "https://s1.52poke.wiki/wiki/thumb/e/e5/051Dugtrio.png/300px-051Dugtrio.png",
+        "type": [
+            "ground"
+        ],
+        "move": [
+            "三重攻擊",
+            "挖洞",
+            "暗襲要害",
+            "劈開",
+            "流沙地獄",
+            "重踏"
+        ]
+    }
 ]
