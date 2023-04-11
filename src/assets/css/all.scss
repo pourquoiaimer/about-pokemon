@@ -95,5 +95,23 @@
     font-size: 50px;
     border-bottom: 1px solid black;
     margin-bottom: 10px;
+    cursor: pointer;
   }
+}
+
+.modal_back {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  position: absolute;
+  top: 0;
+}
+.move_gif {
+  display: block;
+  width: 400px;
+  height: 300px;
+  top: calc(50% - 150px);
+  left: calc(50% - 200px);
+  position: sticky;
 }

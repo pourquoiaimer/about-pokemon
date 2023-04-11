@@ -2,8 +2,8 @@
     {
         "no": "6",
         "no_super": "10034",
+        "no_super2": "10035",
         "name": "噴火龍",
-        "url": "https://s1.52poke.wiki/wiki/thumb/7/7e/006Charizard.png/300px-006Charizard.png",
         "type": [
             "fire"
         ],
@@ -21,7 +21,6 @@
         "no": "9",
         "name": "水箭龜",
         "no_super": "10036",
-        "url": "https://s1.52poke.wiki/wiki/thumb/0/02/009Blastoise.png/300px-009Blastoise.png",
         "type": [
             "water"
         ],
@@ -30,14 +29,13 @@
             "高速旋轉",
             "咬住",
             "水之波動",
-            "加農光泡"
+            "加農光炮"
         ]
     },
     {
         "no": "3",
         "no_super": "10033",
         "name": "妙蛙花",
-        "url": "https://s1.52poke.wiki/wiki/thumb/a/ae/003Venusaur.png/300px-003Venusaur.png",
         "type": [
             "grass"
         ],
@@ -54,22 +52,20 @@
     {
         "no": "26",
         "name": "雷丘",
-        "url": "https://s1.52poke.wiki/wiki/thumb/8/88/026Raichu.png/300px-026Raichu.png",
         "type": [
             "electric"
         ],
         "move": [
-            "十萬福特",
+            "十萬伏特",
             "電光一閃",
             "鐵尾",
-            "閃電拳",
+            "雷電拳",
             "電球"
         ]
     },
     {
         "no": "17",
         "name": "比比鳥",
-        "url": "https://s1.52poke.wiki/wiki/thumb/7/7a/017Pidgeotto.png/300px-017Pidgeotto.png",
         "type": [
             "normal",
             "flying"
