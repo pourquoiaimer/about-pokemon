@@ -1,6 +1,6 @@
 [
     {
-        "show":"simple",
+        "show": "simple",
         "no": "6",
         "no_super": "10034",
         "no_super2": "10035",
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "show":"simple",
+        "show": "simple",
         "no": "9",
         "name": "水箭龜",
         "no_super": "10036",
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "show":"simple",
+        "show": "simple",
         "no": "3",
         "no_super": "10033",
         "name": "妙蛙花",
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "show":"simple",
+        "show": "simple",
         "no": "26",
         "name": "雷丘",
         "type": [
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "show":"simple",
+        "show": "simple",
         "no": "17",
         "name": "比比鳥",
         "type": [
@@ -110,6 +110,9 @@
         ]
     },
     {
+        "no": "475",
+        "name": "艾路雷朵",
+        "url": "https://s1.52poke.wiki/wiki/thumb/0/00/281Kirlia.png/300px-281Kirlia.png",
         "show":"simple",
         "no": "475",
         "no_super": "10068",
@@ -136,7 +139,7 @@
         ]
     },
     {
-        "show":"simple",
+        "show": "simple",
         "no": "51",
         "name": "三地鼠",
         "type": [
