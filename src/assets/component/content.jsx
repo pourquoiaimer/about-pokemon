@@ -2,32 +2,36 @@ import { useEffect, useState } from 'react'
 
 import $, { ajax } from 'jquery'
 import move_list from '../json/move_list.json'
+import my from "../json/my.json"
 
+//部份招式沒辦法播放
 
 function Content(props) {
-    if (!props.my) {
+
+    if (!my) {
         return null
     }
-    const [myData, setMyData] = useState(props.my)
+
+    const [myData, setMyData] = useState(my)
     const [move_url, setMove_url] = useState("")
 
-    //let move_url = `https://s1.52poke.wiki/assets/animoves/AniMove${move_id}.gif` //至少三位數 001 影片
-    // let move_url = `https://s1.52poke.wiki/assets/animoves/AniMove001.gif` //至少三位數 001 影片
+    useEffect(() => {
+        console.log('test');
+    }, [myData])
+
 
     function open_or_shot(boolen, event, spc_url) {
         if (boolen) {
-            if (!event.target.id) {
+            if (event.target.dataset.id == "false") {
                 setMove_url(spc_url)
                 $('.modal_back').stop().fadeIn();
 
             } else {
-                setMove_url(`https://s1.52poke.wiki/assets/animoves/AniMove${event.target.id}.gif`)
+                setMove_url(`https://s1.52poke.wiki/assets/animoves/AniMove${event.target.dataset.id}.gif`)
                 $('.modal_back').stop().fadeIn();
             }
         } else {
-
-            $('.modal_back').stop().fadeOut();
-
+            $('.modal_back').fadeOut();
         }
     }
 
@@ -82,7 +86,8 @@ function Content(props) {
 
 
             let show = myData.map(function (data, index) {
-                let move_all = data.move.map(function (data, index) {
+                let show_data = data.show == "simple" ? data.move : data.move_super
+                let move_all = show_data.map(function (data, index) {
                     let now_move
                     for (let index = 0; index < move_list.length; index++) {
                         if (move_list[index].nameZh == data) {
@@ -110,7 +115,7 @@ function Content(props) {
                             break;
                     }
                     return (
-                        <div className='move_' id={now_move.id} onClick={(event) => { open_or_shot(true, event, now_move.url) }}>
+                        <div className='move_' data-id={now_move.id} onClick={(event) => { open_or_shot(true, event, now_move.url) }}>
                             {now_move.nameZh}
                         </div>
                     )
@@ -122,17 +127,16 @@ function Content(props) {
                     if (!url_super) {
                         return
                     }
-                    if (event.target.src == url) {
-                        event.target.src = url_super
-                    } else {
-                        event.target.src = url
-                    }
+                    let change_data = [...myData]
+                    change_data[event.target.dataset.key].show = change_data[event.target.dataset.key].show == "simple" ? "super" : "simple"
+                    // setMyData("")
+                    setMyData(change_data)
                 }
                 let bg_color = bg_colors_all[data.type[0]]
                 return (
                     <div className='card_sample' style={{ backgroundColor: bg_color }}>
                         <div className='card_title'>{data.name}</div>
-                        {/* <img src={url} onClick={(event) => { superImg(event, url_super) }} /> */}
+                        <img data-key={index} src={data.show == "simple" ? url : url_super} onClick={(event) => { superImg(event, url_super) }} />
                         {move_all}
                     </div>
                 )
@@ -152,7 +156,7 @@ function Content(props) {
         <div id='content' style={{ fontFamily: props.font }}>
             <Card />
             <div className='modal_back' onClick={() => { open_or_shot(false) }}>
-                <img className='move_gif' src={move_url} />
+                <img className='move_gif' referrer='no-referrer|origin|unsafe-url' src={move_url} />
             </div>
         </div>
     )

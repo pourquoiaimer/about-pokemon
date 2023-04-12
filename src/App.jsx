@@ -2,7 +2,6 @@ import { useState } from 'react'
 import pika_loading from './assets/image/loading.gif'
 import title_pic from "./assets/image/avatar.png"
 import Content from './assets/component/content'
-import my from "./assets/json/my.json"
 
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, child, get } from "firebase/database";
@@ -64,7 +63,7 @@ function App() {
         <img className='title_pic' src={title_pic} alt="" />
         {/* <span>Pokemon</span> */}
       </div>
-      <Content font={font} data={allData} my={my} />
+      <Content font={font} data={allData} />
 
       <div id='footer'>
         <a href="https://www.flaticon.com/free-icons/pikachu" title="pikachu icons">Pikachu icons created by Darius Dan - Flaticon</a>
