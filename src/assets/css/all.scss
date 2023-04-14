@@ -12,6 +12,13 @@
   src: url("../font/BpmfZihiOnly-R.ttf");
 }
 
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #App {
   position: relative;
   width: 100%;
@@ -35,6 +42,7 @@
   img {
     width: auto;
     height: 40px;
+    padding: 0 10px;
   }
 }
 #content {
@@ -86,10 +94,15 @@
     font-size: 60px;
     text-align: center;
   }
-  img {
+  .img_simple{
     height: 200px;
     width: 200px;
-    padding: 10px;
+    padding: 10px 0;
+  }
+  .img_move{
+    height: 200px;
+    width: auto;
+    padding: 10px 0;
   }
   .move_ {
     font-size: 50px;

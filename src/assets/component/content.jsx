@@ -122,6 +122,10 @@ function Content(props) {
                 })
 
                 let url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.no}.png`
+                // https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/showdown/1.gif
+                let url_move = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${data.no}.gif`
+                let url_super_move = data.no_super ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${data.no_super}.gif` : false
+
                 let url_super = data.no_super ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.no_super}.png` : false
                 function superImg(event, url_super) {
                     if (!url_super) {
@@ -133,10 +137,17 @@ function Content(props) {
                     setMyData(change_data)
                 }
                 let bg_color = bg_colors_all[data.type[0]]
+                let now_src
+                if (props.sprites_show == "simple") {
+                    now_src = data.show == "simple" ? url : url_super
+                } else {
+                    now_src = data.show == "simple" ? url_move : url_super_move
+                }
+
                 return (
                     <div className='card_sample' style={{ backgroundColor: bg_color }}>
                         <div className='card_title'>{data.name}</div>
-                        <img data-key={index} src={data.show == "simple" ? url : url_super} onClick={(event) => { superImg(event, url_super) }} />
+                        <img className={props.sprites_show=="simple"?"img_simple":"img_move"} data-key={index} src={now_src} onClick={(event) => { superImg(event, url_super) }} />
                         {move_all}
                     </div>
                 )
