@@ -3,40 +3,17 @@ import pika_loading from './assets/image/loading.gif'
 import title_pic from "./assets/image/pika.png"
 import title_pic2 from "./assets/image/snorlax.ico"
 
+import Content_xiang from './assets/component/content_xiang'
 import Content from './assets/component/content'
 
-import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, child, get } from "firebase/database";
 
 import './assets/css/all.scss'
 import $ from 'jquery'
 import { useEffect } from 'react'
 
 function App() {
-  // const firebaseConfig = {
-  //   apiKey: "AIzaSyDN8ajOrHB3GTQtiqtOV5mi3oDIJphn1Ao",
-  //   authDomain: "pokemon-test-1baa4.firebaseapp.com",
-  //   projectId: "pokemon-test-1baa4",
-  //   storageBucket: "pokemon-test-1baa4.appspot.com",
-  //   messagingSenderId: "102520562760",
-  //   appId: "1:102520562760:web:c5eac975a1250b2220a47d",
-  //   measurementId: "G-7Q1MCTYV4R"
-  // };
-  // const app = initializeApp(firebaseConfig);
-  // // const db = getDatabase(app);
-  // const dbRef = ref(getDatabase());
-  // get(child(dbRef, `my_pokemon`)).then((snapshot) => {
-  //   if (snapshot.exists()) {
-  //     console.log(snapshot.val());
-  //   } else {
-  //     console.log("No data available");
-  //   }
-  // }).catch((error) => {
-  //   console.error(error);
-  // });
 
-
-
+  const [nowShow, setNowShow] = useState("content")
 
   const [font, setFont] = useState("BpmfZihiOnly-R")
   const [spritesShow, setSpritesShow] = useState("simple")
@@ -72,7 +49,8 @@ function App() {
 
         {/* <span>Pokemon</span> */}
       </div>
-      <Content font={font} data={allData} sprites_show={spritesShow}/>
+      {nowShow=="content"?<Content font={font} data={allData} sprites_show={spritesShow}/>:<Content_xiang font={font} data={allData} sprites_show={spritesShow}/>}
+      
 
       <div id='footer'>
         <a href="https://www.flaticon.com/free-icons/pikachu" title="pikachu icons">Pikachu icons created by Darius Dan - Flaticon</a>

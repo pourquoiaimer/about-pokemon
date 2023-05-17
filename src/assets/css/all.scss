@@ -12,7 +12,7 @@
   src: url("../font/BpmfZihiOnly-R.ttf");
 }
 
-body{
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -45,7 +45,7 @@ body{
     padding: 0 10px;
   }
 }
-#content {
+#content_xiang {
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -73,6 +73,11 @@ body{
   }
 }
 
+#top_menu {
+  width: 100%;
+  background-color: rgb(240, 141, 141);
+}
+
 .card_all {
   display: flex;
   justify-content: center;
@@ -86,22 +91,24 @@ body{
   width: 350px;
   height: auto;
   padding: 10px;
-  // border: 1px solid black;
-  // background-color: rgb(241, 241, 153);
+  background-color: rgb(126, 241, 188);
   border-radius: 100px;
   margin: 10px;
   .card_title {
     font-size: 60px;
     text-align: center;
+    display: flex;
+    align-items: center;
   }
-  .img_simple{
+  .img_simple {
     height: 200px;
     width: 200px;
     padding: 10px 0;
   }
-  .img_move{
+  .img_move {
     height: 200px;
     width: auto;
+    max-width: 400px;
     padding: 10px 0;
   }
   .move_ {
@@ -127,4 +134,62 @@ body{
   top: calc(50% - 150px);
   left: calc(50% - 200px);
   position: sticky;
+}
+
+.type_option {
+  background-color: rgb(66, 62, 62);
+  color: white;
+  font-size: 30px;
+  // font-family: "BpmfZihiOnly-R";
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.type_option_cell {
+  border-radius: 50px;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  .option_word {
+    pointer-events: none;
+    font-size: 40px;
+    margin-right: 5px;
+  }
+  .option_num {
+    pointer-events: none;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+  &.click{
+    background-color: white;
+    color: black;
+  }
+}
+
+.load_more {
+  display: flex;
+  justify-content: center;
+  span {
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 2px solid rgb(51, 161, 152);
+    border-radius: 60px;
+    font-size: 40px;
+    margin: 10px;
+    // background-color: rgba(199, 199, 250, 0.473);
+    // color: rgb(42, 40, 116);
+    // box-shadow: 5px 5px 5px rgb(67, 67, 156);;
+    &:hover{
+      background: rgb(112, 223, 243);
+      color: black;
+    }
+  }
 }
