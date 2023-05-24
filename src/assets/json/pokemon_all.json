@@ -1,5 +1,5 @@
-[
-    {
+{
+    "一般": {
         "type_zh": "一般",
         "type_en": "Normal",
         "color": "rgb(166,166,166)",
@@ -57,19 +57,6 @@
                 "generation": 1
             },
             {
-                "index": 19,
-                "nameZh": "小拉達",
-                "nameJa": "コラッタ",
-                "nameEn": "Rattata",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "貪吃鬼",
-                "ability2": "活力",
-                "abilityHide": "厚脂肪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
                 "index": 20,
                 "nameZh": "拉達",
                 "nameJa": "ラッタ",
@@ -80,19 +67,6 @@
                 "ability2": "毅力",
                 "abilityHide": "活力",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 20,
-                "nameZh": "拉達",
-                "nameJa": "ラッタ",
-                "nameEn": "Raticate",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "貪吃鬼",
-                "ability2": "活力",
-                "abilityHide": "厚脂肪",
-                "form": "阿羅拉的樣子",
                 "generation": 1
             },
             {
@@ -525,19 +499,6 @@
                 "generation": 3
             },
             {
-                "index": 263,
-                "nameZh": "蛇紋熊",
-                "nameJa": "ジグザグマ",
-                "nameEn": "Zigzagoon",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "撿拾",
-                "ability2": "貪吃鬼",
-                "abilityHide": "飛毛腿",
-                "form": "伽勒爾的樣子",
-                "generation": 3
-            },
-            {
                 "index": 264,
                 "nameZh": "直衝熊",
                 "nameJa": "マッスグマ",
@@ -548,19 +509,6 @@
                 "ability2": "貪吃鬼",
                 "abilityHide": "飛毛腿",
                 "form": "",
-                "generation": 3
-            },
-            {
-                "index": 264,
-                "nameZh": "直衝熊",
-                "nameJa": "マッスグマ",
-                "nameEn": "Linoone",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "撿拾",
-                "ability2": "貪吃鬼",
-                "abilityHide": "飛毛腿",
-                "form": "伽勒爾的樣子",
                 "generation": 3
             },
             {
@@ -1107,32 +1055,6 @@
                 "ability2": "再生力",
                 "abilityHide": "笨拙",
                 "form": "",
-                "generation": 5
-            },
-            {
-                "index": 570,
-                "nameZh": "索羅亞",
-                "nameJa": "ゾロア",
-                "nameEn": "Zorua",
-                "type1": "一般",
-                "type2": "幽靈",
-                "ability1": "幻覺",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
-                "index": 571,
-                "nameZh": "索羅亞克",
-                "nameJa": "ゾロアーク",
-                "nameEn": "Zoroark",
-                "type1": "一般",
-                "type2": "幽靈",
-                "ability1": "幻覺",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "洗翠的樣子",
                 "generation": 5
             },
             {
@@ -1748,7 +1670,7 @@
             }
         ]
     },
-    {
+    "格鬥": {
         "type_zh": "格鬥",
         "type_en": "Fighting",
         "color": "rgb(255,102,102)",
@@ -1832,19 +1754,6 @@
                 "generation": 1
             },
             {
-                "index": 83,
-                "nameZh": "大蔥鴨",
-                "nameJa": "カモネギ",
-                "nameEn": "Farfetch'd",
-                "type1": "格鬥",
-                "type2": "",
-                "ability1": "不屈之心",
-                "ability2": "",
-                "abilityHide": "膽量",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
                 "index": 106,
                 "nameZh": "飛腿郎",
                 "nameJa": "サワムラー",
@@ -1871,45 +1780,6 @@
                 "generation": 1
             },
             {
-                "index": 128,
-                "nameZh": "肯泰羅",
-                "nameJa": "ケンタロス",
-                "nameEn": "Tauros",
-                "type1": "格鬥",
-                "type2": "",
-                "ability1": "威嚇",
-                "ability2": "憤怒穴位",
-                "abilityHide": "反芻",
-                "form": "帕底亞的樣子 鬥戰種",
-                "generation": 1
-            },
-            {
-                "index": 128,
-                "nameZh": "肯泰羅",
-                "nameJa": "ケンタロス",
-                "nameEn": "Tauros",
-                "type1": "格鬥",
-                "type2": "火",
-                "ability1": "威嚇",
-                "ability2": "憤怒穴位",
-                "abilityHide": "反芻",
-                "form": "帕底亞的樣子 火熾種",
-                "generation": 1
-            },
-            {
-                "index": 128,
-                "nameZh": "肯泰羅",
-                "nameJa": "ケンタロス",
-                "nameEn": "Tauros",
-                "type1": "格鬥",
-                "type2": "水",
-                "ability1": "威嚇",
-                "ability2": "憤怒穴位",
-                "abilityHide": "反芻",
-                "form": "帕底亞的樣子 水瀾種",
-                "generation": 1
-            },
-            {
                 "index": 214,
                 "nameZh": "赫拉克羅斯",
                 "nameJa": "ヘラクロス",
@@ -1920,19 +1790,6 @@
                 "ability2": "毅力",
                 "abilityHide": "自信過度",
                 "form": "",
-                "generation": 2
-            },
-            {
-                "index": 215,
-                "nameZh": "狃拉",
-                "nameJa": "ニューラ",
-                "nameEn": "Sneasel",
-                "type1": "格鬥",
-                "type2": "毒",
-                "ability1": "精神力",
-                "ability2": "銳利目光",
-                "abilityHide": "順手牽羊",
-                "form": "洗翠的樣子",
                 "generation": 2
             },
             {
@@ -2235,19 +2092,6 @@
                 "generation": 5
             },
             {
-                "index": 549,
-                "nameZh": "裙兒小姐",
-                "nameJa": "ドレディア",
-                "nameEn": "Lilligant",
-                "type1": "草",
-                "type2": "格鬥",
-                "ability1": "葉綠素",
-                "ability2": "活力",
-                "abilityHide": "葉子防守",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
                 "index": 559,
                 "nameZh": "滑滑小子",
                 "nameJa": "ズルッグ",
@@ -2402,19 +2246,6 @@
                 "abilityHide": "破格",
                 "form": "",
                 "generation": 6
-            },
-            {
-                "index": 724,
-                "nameZh": "狙射樹梟",
-                "nameJa": "ジュナイパー",
-                "nameEn": "Decidueye",
-                "type1": "草",
-                "type2": "格鬥",
-                "ability1": "茂盛",
-                "ability2": "",
-                "abilityHide": "膽量",
-                "form": "洗翠的樣子",
-                "generation": 7
             },
             {
                 "index": 739,
@@ -2769,7 +2600,7 @@
             }
         ]
     },
-    {
+    "飛行": {
         "type_zh": "飛行",
         "type_en": "Flying",
         "color": "rgb(153,204,255)",
@@ -3776,19 +3607,6 @@
                 "generation": 5
             },
             {
-                "index": 628,
-                "nameZh": "勇士雄鷹",
-                "nameJa": "ウォーグル",
-                "nameEn": "Braviary",
-                "type1": "超能力",
-                "type2": "飛行",
-                "ability1": "銳利目光",
-                "ability2": "強行",
-                "abilityHide": "有色眼鏡",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
                 "index": 629,
                 "nameZh": "禿鷹丫頭",
                 "nameJa": "バルチャイ",
@@ -4141,7 +3959,7 @@
             }
         ]
     },
-    {
+    "毒": {
         "type_zh": "毒",
         "type_en": "Poison",
         "color": "rgb(102,0,51)",
@@ -4485,49 +4303,10 @@
                 "generation": 1
             },
             {
-                "index": 80,
-                "nameZh": "呆殼獸",
-                "nameJa": "ヤドラン",
-                "nameEn": "Slowbro",
-                "type1": "毒",
-                "type2": "超能力",
-                "ability1": "速擊",
-                "ability2": "我行我素",
-                "abilityHide": "再生力",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
                 "index": 88,
                 "nameZh": "臭泥",
                 "nameJa": "ベトベター",
                 "nameEn": "Grimer",
-                "type1": "毒",
-                "type2": "",
-                "ability1": "惡臭",
-                "ability2": "黏著",
-                "abilityHide": "毒手",
-                "form": "",
-                "generation": 1
-            },
-            {
-                "index": 88,
-                "nameZh": "臭泥",
-                "nameJa": "ベトベター",
-                "nameEn": "Grimer",
-                "type1": "毒",
-                "type2": "惡",
-                "ability1": "毒手",
-                "ability2": "貪吃鬼",
-                "abilityHide": "化學之力",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 89,
-                "nameZh": "臭臭泥",
-                "nameJa": "ベトベトン",
-                "nameEn": "Muk",
                 "type1": "毒",
                 "type2": "",
                 "ability1": "惡臭",
@@ -4542,11 +4321,11 @@
                 "nameJa": "ベトベトン",
                 "nameEn": "Muk",
                 "type1": "毒",
-                "type2": "惡",
-                "ability1": "毒手",
-                "ability2": "貪吃鬼",
-                "abilityHide": "化學之力",
-                "form": "阿羅拉的樣子",
+                "type2": "",
+                "ability1": "惡臭",
+                "ability2": "黏著",
+                "abilityHide": "毒手",
+                "form": "",
                 "generation": 1
             },
             {
@@ -4615,19 +4394,6 @@
                 "generation": 1
             },
             {
-                "index": 110,
-                "nameZh": "雙彈瓦斯",
-                "nameJa": "マタドガス",
-                "nameEn": "Weezing",
-                "type1": "毒",
-                "type2": "妖精",
-                "ability1": "飄浮",
-                "ability2": "化學變化氣體",
-                "abilityHide": "薄霧製造者",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
                 "index": 167,
                 "nameZh": "圓絲蛛",
                 "nameJa": "イトマル",
@@ -4667,19 +4433,6 @@
                 "generation": 2
             },
             {
-                "index": 199,
-                "nameZh": "呆呆王",
-                "nameJa": "ヤドキング",
-                "nameEn": "Slowking",
-                "type1": "毒",
-                "type2": "超能力",
-                "ability1": "怪藥",
-                "ability2": "我行我素",
-                "abilityHide": "再生力",
-                "form": "伽勒爾的樣子",
-                "generation": 2
-            },
-            {
                 "index": 211,
                 "nameZh": "千針魚",
                 "nameJa": "ハリーセン",
@@ -4690,32 +4443,6 @@
                 "ability2": "悠遊自如",
                 "abilityHide": "威嚇",
                 "form": "",
-                "generation": 2
-            },
-            {
-                "index": 211,
-                "nameZh": "千針魚",
-                "nameJa": "ハリーセン",
-                "nameEn": "Qwilfish",
-                "type1": "惡",
-                "type2": "毒",
-                "ability1": "毒刺",
-                "ability2": "悠遊自如",
-                "abilityHide": "威嚇",
-                "form": "洗翠的樣子",
-                "generation": 2
-            },
-            {
-                "index": 215,
-                "nameZh": "狃拉",
-                "nameJa": "ニューラ",
-                "nameEn": "Sneasel",
-                "type1": "格鬥",
-                "type2": "毒",
-                "ability1": "精神力",
-                "ability2": "銳利目光",
-                "abilityHide": "順手牽羊",
-                "form": "洗翠的樣子",
                 "generation": 2
             },
             {
@@ -5266,7 +4993,7 @@
             }
         ]
     },
-    {
+    "地面": {
         "type_zh": "地面",
         "type_en": "Ground",
         "color": "rgb(204,102,0)",
@@ -5337,19 +5064,6 @@
                 "generation": 1
             },
             {
-                "index": 50,
-                "nameZh": "地鼠",
-                "nameJa": "ディグダ",
-                "nameEn": "Diglett",
-                "type1": "地面",
-                "type2": "鋼",
-                "ability1": "沙隱",
-                "ability2": "卷髮",
-                "abilityHide": "沙之力",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
                 "index": 51,
                 "nameZh": "三地鼠",
                 "nameJa": "ダグトリオ",
@@ -5360,19 +5074,6 @@
                 "ability2": "沙穴",
                 "abilityHide": "沙之力",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 51,
-                "nameZh": "三地鼠",
-                "nameJa": "ダグトリオ",
-                "nameEn": "Dugtrio",
-                "type1": "地面",
-                "type2": "鋼",
-                "ability1": "沙隱",
-                "ability2": "卷髮",
-                "abilityHide": "沙之力",
-                "form": "阿羅拉的樣子",
                 "generation": 1
             },
             {
@@ -6000,19 +5701,6 @@
                 "generation": 5
             },
             {
-                "index": 562,
-                "nameZh": "哭哭面具",
-                "nameJa": "デスマス",
-                "nameEn": "Yamask",
-                "type1": "地面",
-                "type2": "幽靈",
-                "ability1": "遊魂",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "伽勒爾的樣子",
-                "generation": 5
-            },
-            {
                 "index": 618,
                 "nameZh": "泥巴魚",
                 "nameJa": "マッギョ",
@@ -6023,19 +5711,6 @@
                 "ability2": "柔軟",
                 "abilityHide": "沙隱",
                 "form": "",
-                "generation": 5
-            },
-            {
-                "index": 618,
-                "nameZh": "泥巴魚",
-                "nameJa": "マッギョ",
-                "nameEn": "Stunfisk",
-                "type1": "地面",
-                "type2": "鋼",
-                "ability1": "擬態",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "伽勒爾的樣子",
                 "generation": 5
             },
             {
@@ -6274,38 +5949,12 @@
             }
         ]
     },
-    {
+    "岩石": {
         "type_zh": "岩石",
         "type_en": "Rock",
         "color": "rgb(153,51,0)",
         "pokemon": [
             {
-                "index": 58,
-                "nameZh": "卡蒂狗",
-                "nameJa": "ガーディ",
-                "nameEn": "Growlithe",
-                "type1": "火",
-                "type2": "岩石",
-                "ability1": "威嚇",
-                "ability2": "引火",
-                "abilityHide": "堅硬腦袋",
-                "form": "洗翠的樣子",
-                "generation": 1
-            },
-            {
-                "index": 59,
-                "nameZh": "風速狗",
-                "nameJa": "ウインディ",
-                "nameEn": "Arcanine",
-                "type1": "火",
-                "type2": "岩石",
-                "ability1": "威嚇",
-                "ability2": "引火",
-                "abilityHide": "堅硬腦袋",
-                "form": "洗翠的樣子",
-                "generation": 1
-            },
-            {
                 "index": 74,
                 "nameZh": "小拳石",
                 "nameJa": "イシツブテ",
@@ -6316,19 +5965,6 @@
                 "ability2": "結實",
                 "abilityHide": "沙隱",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 74,
-                "nameZh": "小拳石",
-                "nameJa": "イシツブテ",
-                "nameEn": "Geodude",
-                "type1": "岩石",
-                "type2": "電",
-                "ability1": "磁力",
-                "ability2": "結實",
-                "abilityHide": "電氣皮膚",
-                "form": "阿羅拉的樣子",
                 "generation": 1
             },
             {
@@ -6345,19 +5981,6 @@
                 "generation": 1
             },
             {
-                "index": 75,
-                "nameZh": "隆隆石",
-                "nameJa": "ゴローン",
-                "nameEn": "Graveler",
-                "type1": "岩石",
-                "type2": "電",
-                "ability1": "磁力",
-                "ability2": "結實",
-                "abilityHide": "電氣皮膚",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
                 "index": 76,
                 "nameZh": "隆隆岩",
                 "nameJa": "ゴローニャ",
@@ -6368,19 +5991,6 @@
                 "ability2": "結實",
                 "abilityHide": "沙隱",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 76,
-                "nameZh": "隆隆岩",
-                "nameJa": "ゴローニャ",
-                "nameEn": "Golem",
-                "type1": "岩石",
-                "type2": "電",
-                "ability1": "磁力",
-                "ability2": "結實",
-                "abilityHide": "電氣皮膚",
-                "form": "阿羅拉的樣子",
                 "generation": 1
             },
             {
@@ -7047,19 +6657,6 @@
                 "generation": 6
             },
             {
-                "index": 713,
-                "nameZh": "冰岩怪",
-                "nameJa": "クレベース",
-                "nameEn": "Avalugg",
-                "type1": "冰",
-                "type2": "岩石",
-                "ability1": "強壯之顎",
-                "ability2": "冰凍之軀",
-                "abilityHide": "結實",
-                "form": "洗翠的樣子",
-                "generation": 6
-            },
-            {
                 "index": 719,
                 "nameZh": "蒂安希",
                 "nameJa": "ディアンシー",
@@ -7295,7 +6892,7 @@
             }
         ]
     },
-    {
+    "蟲": {
         "type_zh": "蟲",
         "type_en": "Bug",
         "color": "rgb(153,204,0)",
@@ -8498,7 +8095,7 @@
             }
         ]
     },
-    {
+    "幽靈": {
         "type_zh": "幽靈",
         "type_en": "Ghost",
         "color": "rgb(102,0,51)",
@@ -8543,32 +8140,6 @@
                 "generation": 1
             },
             {
-                "index": 105,
-                "nameZh": "嘎啦嘎啦",
-                "nameJa": "ガラガラ",
-                "nameEn": "Marowak",
-                "type1": "火",
-                "type2": "幽靈",
-                "ability1": "詛咒之軀",
-                "ability2": "避雷針",
-                "abilityHide": "堅硬腦袋",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 157,
-                "nameZh": "火暴獸",
-                "nameJa": "バクフーン",
-                "nameEn": "Typhlosion",
-                "type1": "火",
-                "type2": "幽靈",
-                "ability1": "猛火",
-                "ability2": "",
-                "abilityHide": "察覺",
-                "form": "洗翠的樣子",
-                "generation": 2
-            },
-            {
                 "index": 200,
                 "nameZh": "夢妖",
                 "nameJa": "ムウマ",
@@ -8579,19 +8150,6 @@
                 "ability2": "",
                 "abilityHide": "",
                 "form": "",
-                "generation": 2
-            },
-            {
-                "index": 222,
-                "nameZh": "太陽珊瑚",
-                "nameJa": "サニーゴ",
-                "nameEn": "Corsola",
-                "type1": "幽靈",
-                "type2": "",
-                "ability1": "碎裂鎧甲",
-                "ability2": "",
-                "abilityHide": "詛咒之軀",
-                "form": "伽勒爾的樣子",
                 "generation": 2
             },
             {
@@ -8777,19 +8335,6 @@
                 "generation": 5
             },
             {
-                "index": 562,
-                "nameZh": "哭哭面具",
-                "nameJa": "デスマス",
-                "nameEn": "Yamask",
-                "type1": "地面",
-                "type2": "幽靈",
-                "ability1": "遊魂",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "伽勒爾的樣子",
-                "generation": 5
-            },
-            {
                 "index": 563,
                 "nameZh": "迭失棺",
                 "nameJa": "デスカーン",
@@ -8800,32 +8345,6 @@
                 "ability2": "",
                 "abilityHide": "",
                 "form": "",
-                "generation": 5
-            },
-            {
-                "index": 570,
-                "nameZh": "索羅亞",
-                "nameJa": "ゾロア",
-                "nameEn": "Zorua",
-                "type1": "一般",
-                "type2": "幽靈",
-                "ability1": "幻覺",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
-                "index": 571,
-                "nameZh": "索羅亞克",
-                "nameJa": "ゾロアーク",
-                "nameEn": "Zoroark",
-                "type1": "一般",
-                "type2": "幽靈",
-                "ability1": "幻覺",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "洗翠的樣子",
                 "generation": 5
             },
             {
@@ -9363,76 +8882,11 @@
             }
         ]
     },
-    {
+    "鋼": {
         "type_zh": "鋼",
         "type_en": "Steel",
         "color": "rgb(153,153,102)",
         "pokemon": [
-            {
-                "index": 27,
-                "nameZh": "穿山鼠",
-                "nameJa": "サンド",
-                "nameEn": "Sandshrew",
-                "type1": "冰",
-                "type2": "鋼",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "撥雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 28,
-                "nameZh": "穿山王",
-                "nameJa": "サンドパン",
-                "nameEn": "Sandslash",
-                "type1": "冰",
-                "type2": "鋼",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "撥雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 50,
-                "nameZh": "地鼠",
-                "nameJa": "ディグダ",
-                "nameEn": "Diglett",
-                "type1": "地面",
-                "type2": "鋼",
-                "ability1": "沙隱",
-                "ability2": "卷髮",
-                "abilityHide": "沙之力",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 51,
-                "nameZh": "三地鼠",
-                "nameJa": "ダグトリオ",
-                "nameEn": "Dugtrio",
-                "type1": "地面",
-                "type2": "鋼",
-                "ability1": "沙隱",
-                "ability2": "卷髮",
-                "abilityHide": "沙之力",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 52,
-                "nameZh": "喵喵",
-                "nameJa": "ニャース",
-                "nameEn": "Meowth",
-                "type1": "鋼",
-                "type2": "",
-                "ability1": "撿拾",
-                "ability2": "硬爪",
-                "abilityHide": "緊張感",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
             {
                 "index": 81,
                 "nameZh": "小磁怪",
@@ -9850,19 +9304,6 @@
                 "generation": 5
             },
             {
-                "index": 618,
-                "nameZh": "泥巴魚",
-                "nameJa": "マッギョ",
-                "nameEn": "Stunfisk",
-                "type1": "地面",
-                "type2": "鋼",
-                "ability1": "擬態",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "伽勒爾的樣子",
-                "generation": 5
-            },
-            {
                 "index": 624,
                 "nameZh": "駒刀小兵",
                 "nameJa": "コマタナ",
@@ -9964,32 +9405,6 @@
                 "ability2": "",
                 "abilityHide": "",
                 "form": "",
-                "generation": 6
-            },
-            {
-                "index": 705,
-                "nameZh": "黏美兒",
-                "nameJa": "ヌメイル",
-                "nameEn": "Sliggoo",
-                "type1": "鋼",
-                "type2": "龍",
-                "ability1": "食草",
-                "ability2": "硬殼盔甲",
-                "abilityHide": "黏滑",
-                "form": "洗翠的樣子",
-                "generation": 6
-            },
-            {
-                "index": 706,
-                "nameZh": "黏美龍",
-                "nameJa": "ヌメルゴン",
-                "nameEn": "Goodra",
-                "type1": "鋼",
-                "type2": "龍",
-                "ability1": "食草",
-                "ability2": "硬殼盔甲",
-                "abilityHide": "黏滑",
-                "form": "洗翠的樣子",
                 "generation": 6
             },
             {
@@ -10293,7 +9708,7 @@
             }
         ]
     },
-    {
+    "火": {
         "type_zh": "火",
         "type_en": "Fire",
         "color": "rgb(255,51,0)",
@@ -10377,19 +9792,6 @@
                 "generation": 1
             },
             {
-                "index": 58,
-                "nameZh": "卡蒂狗",
-                "nameJa": "ガーディ",
-                "nameEn": "Growlithe",
-                "type1": "火",
-                "type2": "岩石",
-                "ability1": "威嚇",
-                "ability2": "引火",
-                "abilityHide": "堅硬腦袋",
-                "form": "洗翠的樣子",
-                "generation": 1
-            },
-            {
                 "index": 59,
                 "nameZh": "風速狗",
                 "nameJa": "ウインディ",
@@ -10400,19 +9802,6 @@
                 "ability2": "引火",
                 "abilityHide": "正義之心",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 59,
-                "nameZh": "風速狗",
-                "nameJa": "ウインディ",
-                "nameEn": "Arcanine",
-                "type1": "火",
-                "type2": "岩石",
-                "ability1": "威嚇",
-                "ability2": "引火",
-                "abilityHide": "堅硬腦袋",
-                "form": "洗翠的樣子",
                 "generation": 1
             },
             {
@@ -10442,19 +9831,6 @@
                 "generation": 1
             },
             {
-                "index": 105,
-                "nameZh": "嘎啦嘎啦",
-                "nameJa": "ガラガラ",
-                "nameEn": "Marowak",
-                "type1": "火",
-                "type2": "幽靈",
-                "ability1": "詛咒之軀",
-                "ability2": "避雷針",
-                "abilityHide": "堅硬腦袋",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
                 "index": 126,
                 "nameZh": "鴨嘴火獸",
                 "nameJa": "ブーバー",
@@ -10465,19 +9841,6 @@
                 "ability2": "",
                 "abilityHide": "幹勁",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 128,
-                "nameZh": "肯泰羅",
-                "nameJa": "ケンタロス",
-                "nameEn": "Tauros",
-                "type1": "格鬥",
-                "type2": "火",
-                "ability1": "威嚇",
-                "ability2": "憤怒穴位",
-                "abilityHide": "反芻",
-                "form": "帕底亞的樣子 火熾種",
                 "generation": 1
             },
             {
@@ -10543,19 +9906,6 @@
                 "ability2": "",
                 "abilityHide": "引火",
                 "form": "",
-                "generation": 2
-            },
-            {
-                "index": 157,
-                "nameZh": "火暴獸",
-                "nameJa": "バクフーン",
-                "nameEn": "Typhlosion",
-                "type1": "火",
-                "type2": "幽靈",
-                "ability1": "猛火",
-                "ability2": "",
-                "abilityHide": "察覺",
-                "form": "洗翠的樣子",
                 "generation": 2
             },
             {
@@ -11392,7 +10742,7 @@
             }
         ]
     },
-    {
+    "水": {
         "type_zh": "水",
         "type_en": "Water",
         "color": "rgb(51,51,204)",
@@ -11707,19 +11057,6 @@
                 "ability2": "自然回復",
                 "abilityHide": "分析",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 128,
-                "nameZh": "肯泰羅",
-                "nameJa": "ケンタロス",
-                "nameEn": "Tauros",
-                "type1": "格鬥",
-                "type2": "水",
-                "ability1": "威嚇",
-                "ability2": "憤怒穴位",
-                "abilityHide": "反芻",
-                "form": "帕底亞的樣子 水瀾種",
                 "generation": 1
             },
             {
@@ -12646,19 +11983,6 @@
                 "generation": 5
             },
             {
-                "index": 503,
-                "nameZh": "大劍鬼",
-                "nameJa": "ダイケンキ",
-                "nameEn": "Samurott",
-                "type1": "水",
-                "type2": "惡",
-                "ability1": "激流",
-                "ability2": "",
-                "abilityHide": "鋒銳",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
                 "index": 515,
                 "nameZh": "冷水猴",
                 "nameJa": "ヒヤップ",
@@ -13414,7 +12738,7 @@
             }
         ]
     },
-    {
+    "草": {
         "type_zh": "草",
         "type_en": "Grass",
         "color": "rgb(146,208,80)",
@@ -13563,32 +12887,6 @@
                 "generation": 1
             },
             {
-                "index": 100,
-                "nameZh": "霹靂電球",
-                "nameJa": "ビリリダマ",
-                "nameEn": "Voltorb",
-                "type1": "電",
-                "type2": "草",
-                "ability1": "隔音",
-                "ability2": "靜電",
-                "abilityHide": "引爆",
-                "form": "洗翠的樣子",
-                "generation": 1
-            },
-            {
-                "index": 101,
-                "nameZh": "頑皮雷彈",
-                "nameJa": "マルマイン",
-                "nameEn": "Electrode",
-                "type1": "電",
-                "type2": "草",
-                "ability1": "隔音",
-                "ability2": "靜電",
-                "abilityHide": "引爆",
-                "form": "洗翠的樣子",
-                "generation": 1
-            },
-            {
                 "index": 102,
                 "nameZh": "蛋蛋",
                 "nameJa": "タマタマ",
@@ -13612,19 +12910,6 @@
                 "ability2": "",
                 "abilityHide": "收穫",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 103,
-                "nameZh": "椰蛋樹",
-                "nameJa": "ナッシー",
-                "nameEn": "Exeggutor",
-                "type1": "草",
-                "type2": "龍",
-                "ability1": "察覺",
-                "ability2": "",
-                "abilityHide": "收穫",
-                "form": "阿羅拉的樣子",
                 "generation": 1
             },
             {
@@ -14317,19 +13602,6 @@
                 "generation": 5
             },
             {
-                "index": 549,
-                "nameZh": "裙兒小姐",
-                "nameJa": "ドレディア",
-                "nameEn": "Lilligant",
-                "type1": "草",
-                "type2": "格鬥",
-                "ability1": "葉綠素",
-                "ability2": "活力",
-                "abilityHide": "葉子防守",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
                 "index": 556,
                 "nameZh": "沙鈴仙人掌",
                 "nameJa": "マラカッチ",
@@ -14587,19 +13859,6 @@
                 "ability2": "",
                 "abilityHide": "遠隔",
                 "form": "",
-                "generation": 7
-            },
-            {
-                "index": 724,
-                "nameZh": "狙射樹梟",
-                "nameJa": "ジュナイパー",
-                "nameEn": "Decidueye",
-                "type1": "草",
-                "type2": "格鬥",
-                "ability1": "茂盛",
-                "ability2": "",
-                "abilityHide": "膽量",
-                "form": "洗翠的樣子",
                 "generation": 7
             },
             {
@@ -15046,7 +14305,7 @@
             }
         ]
     },
-    {
+    "電": {
         "type_zh": "電",
         "type_en": "Electric",
         "color": "rgb(255,204,0)",
@@ -15075,58 +14334,6 @@
                 "ability2": "",
                 "abilityHide": "避雷針",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 26,
-                "nameZh": "雷丘",
-                "nameJa": "ライチュウ",
-                "nameEn": "Raichu",
-                "type1": "電",
-                "type2": "超能力",
-                "ability1": "衝浪之尾",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 74,
-                "nameZh": "小拳石",
-                "nameJa": "イシツブテ",
-                "nameEn": "Geodude",
-                "type1": "岩石",
-                "type2": "電",
-                "ability1": "磁力",
-                "ability2": "結實",
-                "abilityHide": "電氣皮膚",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 75,
-                "nameZh": "隆隆石",
-                "nameJa": "ゴローン",
-                "nameEn": "Graveler",
-                "type1": "岩石",
-                "type2": "電",
-                "ability1": "磁力",
-                "ability2": "結實",
-                "abilityHide": "電氣皮膚",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 76,
-                "nameZh": "隆隆岩",
-                "nameJa": "ゴローニャ",
-                "nameEn": "Golem",
-                "type1": "岩石",
-                "type2": "電",
-                "ability1": "磁力",
-                "ability2": "結實",
-                "abilityHide": "電氣皮膚",
-                "form": "阿羅拉的樣子",
                 "generation": 1
             },
             {
@@ -15169,19 +14376,6 @@
                 "generation": 1
             },
             {
-                "index": 100,
-                "nameZh": "霹靂電球",
-                "nameJa": "ビリリダマ",
-                "nameEn": "Voltorb",
-                "type1": "電",
-                "type2": "草",
-                "ability1": "隔音",
-                "ability2": "靜電",
-                "abilityHide": "引爆",
-                "form": "洗翠的樣子",
-                "generation": 1
-            },
-            {
                 "index": 101,
                 "nameZh": "頑皮雷彈",
                 "nameJa": "マルマイン",
@@ -15192,19 +14386,6 @@
                 "ability2": "靜電",
                 "abilityHide": "引爆",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 101,
-                "nameZh": "頑皮雷彈",
-                "nameJa": "マルマイン",
-                "nameEn": "Electrode",
-                "type1": "電",
-                "type2": "草",
-                "ability1": "隔音",
-                "ability2": "靜電",
-                "abilityHide": "引爆",
-                "form": "洗翠的樣子",
                 "generation": 1
             },
             {
@@ -16002,24 +15183,11 @@
             }
         ]
     },
-    {
+    "超能力": {
         "type_zh": "超能力",
         "type_en": "Psychic",
         "color": "rgb(255,102,255)",
         "pokemon": [
-            {
-                "index": 26,
-                "nameZh": "雷丘",
-                "nameJa": "ライチュウ",
-                "nameEn": "Raichu",
-                "type1": "電",
-                "type2": "超能力",
-                "ability1": "衝浪之尾",
-                "ability2": "",
-                "abilityHide": "",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
             {
                 "index": 63,
                 "nameZh": "凱西",
@@ -16060,32 +15228,6 @@
                 "generation": 1
             },
             {
-                "index": 77,
-                "nameZh": "小火馬",
-                "nameJa": "ポニータ",
-                "nameEn": "Ponyta",
-                "type1": "超能力",
-                "type2": "",
-                "ability1": "逃跑",
-                "ability2": "粉彩護幕",
-                "abilityHide": "危險預知",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
-                "index": 78,
-                "nameZh": "烈焰馬",
-                "nameJa": "ギャロップ",
-                "nameEn": "Rapidash",
-                "type1": "超能力",
-                "type2": "妖精",
-                "ability1": "逃跑",
-                "ability2": "粉彩護幕",
-                "abilityHide": "危險預知",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
                 "index": 79,
                 "nameZh": "呆呆獸",
                 "nameJa": "ヤドン",
@@ -16099,19 +15241,6 @@
                 "generation": 1
             },
             {
-                "index": 79,
-                "nameZh": "呆呆獸",
-                "nameJa": "ヤドン",
-                "nameEn": "Slowpoke",
-                "type1": "超能力",
-                "type2": "",
-                "ability1": "貪吃鬼",
-                "ability2": "我行我素",
-                "abilityHide": "再生力",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
                 "index": 80,
                 "nameZh": "呆殼獸",
                 "nameJa": "ヤドラン",
@@ -16122,19 +15251,6 @@
                 "ability2": "我行我素",
                 "abilityHide": "再生力",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 80,
-                "nameZh": "呆殼獸",
-                "nameJa": "ヤドラン",
-                "nameEn": "Slowbro",
-                "type1": "毒",
-                "type2": "超能力",
-                "ability1": "速擊",
-                "ability2": "我行我素",
-                "abilityHide": "再生力",
-                "form": "伽勒爾的樣子",
                 "generation": 1
             },
             {
@@ -16213,19 +15329,6 @@
                 "ability2": "過濾",
                 "abilityHide": "技術高手",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 122,
-                "nameZh": "魔牆人偶",
-                "nameJa": "バリヤード",
-                "nameEn": "Mr. Mime",
-                "type1": "冰",
-                "type2": "超能力",
-                "ability1": "幹勁",
-                "ability2": "除障",
-                "abilityHide": "冰凍之軀",
-                "form": "伽勒爾的樣子",
                 "generation": 1
             },
             {
@@ -16317,19 +15420,6 @@
                 "ability2": "我行我素",
                 "abilityHide": "再生力",
                 "form": "",
-                "generation": 2
-            },
-            {
-                "index": 199,
-                "nameZh": "呆呆王",
-                "nameJa": "ヤドキング",
-                "nameEn": "Slowking",
-                "type1": "毒",
-                "type2": "超能力",
-                "ability1": "怪藥",
-                "ability2": "我行我素",
-                "abilityHide": "再生力",
-                "form": "伽勒爾的樣子",
                 "generation": 2
             },
             {
@@ -16970,19 +16060,6 @@
                 "generation": 5
             },
             {
-                "index": 628,
-                "nameZh": "勇士雄鷹",
-                "nameJa": "ウォーグル",
-                "nameEn": "Braviary",
-                "type1": "超能力",
-                "type2": "飛行",
-                "ability1": "銳利目光",
-                "ability2": "強行",
-                "abilityHide": "有色眼鏡",
-                "form": "洗翠的樣子",
-                "generation": 5
-            },
-            {
                 "index": 648,
                 "nameZh": "美洛耶塔",
                 "nameJa": "メロエッタ",
@@ -17387,63 +16464,11 @@
             }
         ]
     },
-    {
+    "冰": {
         "type_zh": "冰",
         "type_en": "Ice",
         "color": "rgb(51,153,255)",
         "pokemon": [
-            {
-                "index": 27,
-                "nameZh": "穿山鼠",
-                "nameJa": "サンド",
-                "nameEn": "Sandshrew",
-                "type1": "冰",
-                "type2": "鋼",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "撥雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 28,
-                "nameZh": "穿山王",
-                "nameJa": "サンドパン",
-                "nameEn": "Sandslash",
-                "type1": "冰",
-                "type2": "鋼",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "撥雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 37,
-                "nameZh": "六尾",
-                "nameJa": "ロコン",
-                "nameEn": "Vulpix",
-                "type1": "冰",
-                "type2": "",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "降雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 38,
-                "nameZh": "九尾",
-                "nameJa": "キュウコン",
-                "nameEn": "Ninetales",
-                "type1": "冰",
-                "type2": "妖精",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "降雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
             {
                 "index": 87,
                 "nameZh": "白海獅",
@@ -17468,19 +16493,6 @@
                 "ability2": "連續攻擊",
                 "abilityHide": "防塵",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 122,
-                "nameZh": "魔牆人偶",
-                "nameJa": "バリヤード",
-                "nameEn": "Mr. Mime",
-                "type1": "冰",
-                "type2": "超能力",
-                "ability1": "幹勁",
-                "ability2": "除障",
-                "abilityHide": "冰凍之軀",
-                "form": "伽勒爾的樣子",
                 "generation": 1
             },
             {
@@ -17744,32 +16756,6 @@
                 "generation": 4
             },
             {
-                "index": 554,
-                "nameZh": "火紅不倒翁",
-                "nameJa": "ダルマッカ",
-                "nameEn": "Darumaka",
-                "type1": "冰",
-                "type2": "",
-                "ability1": "活力",
-                "ability2": "",
-                "abilityHide": "精神力",
-                "form": "伽勒爾的樣子",
-                "generation": 5
-            },
-            {
-                "index": 555,
-                "nameZh": "達摩狒狒",
-                "nameJa": "ヒヒダルマ",
-                "nameEn": "Darmanitan",
-                "type1": "冰",
-                "type2": "",
-                "ability1": "一猩一意",
-                "ability2": "",
-                "abilityHide": "達摩模式",
-                "form": "伽勒爾的樣子",
-                "generation": 5
-            },
-            {
                 "index": 582,
                 "nameZh": "迷你冰",
                 "nameJa": "バニプッチ",
@@ -17910,19 +16896,6 @@
                 "ability2": "冰凍之軀",
                 "abilityHide": "結實",
                 "form": "",
-                "generation": 6
-            },
-            {
-                "index": 713,
-                "nameZh": "冰岩怪",
-                "nameJa": "クレベース",
-                "nameEn": "Avalugg",
-                "type1": "冰",
-                "type2": "岩石",
-                "ability1": "強壯之顎",
-                "ability2": "冰凍之軀",
-                "abilityHide": "結實",
-                "form": "洗翠的樣子",
                 "generation": 6
             },
             {
@@ -18122,24 +17095,11 @@
             }
         ]
     },
-    {
+    "龍": {
         "type_zh": "龍",
         "type_en": "Dragon",
         "color": "rgb(153,51,153)",
         "pokemon": [
-            {
-                "index": 103,
-                "nameZh": "椰蛋樹",
-                "nameJa": "ナッシー",
-                "nameEn": "Exeggutor",
-                "type1": "草",
-                "type2": "龍",
-                "ability1": "察覺",
-                "ability2": "",
-                "abilityHide": "收穫",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
             {
                 "index": 147,
                 "nameZh": "迷你龍",
@@ -18570,19 +17530,6 @@
                 "generation": 6
             },
             {
-                "index": 705,
-                "nameZh": "黏美兒",
-                "nameJa": "ヌメイル",
-                "nameEn": "Sliggoo",
-                "type1": "鋼",
-                "type2": "龍",
-                "ability1": "食草",
-                "ability2": "硬殼盔甲",
-                "abilityHide": "黏滑",
-                "form": "洗翠的樣子",
-                "generation": 6
-            },
-            {
                 "index": 706,
                 "nameZh": "黏美龍",
                 "nameJa": "ヌメルゴン",
@@ -18593,19 +17540,6 @@
                 "ability2": "濕潤之軀",
                 "abilityHide": "黏滑",
                 "form": "",
-                "generation": 6
-            },
-            {
-                "index": 706,
-                "nameZh": "黏美龍",
-                "nameJa": "ヌメルゴン",
-                "nameEn": "Goodra",
-                "type1": "鋼",
-                "type2": "龍",
-                "ability1": "食草",
-                "ability2": "硬殼盔甲",
-                "abilityHide": "黏滑",
-                "form": "洗翠的樣子",
                 "generation": 6
             },
             {
@@ -18974,89 +17908,11 @@
             }
         ]
     },
-    {
+    "惡": {
         "type_zh": "惡",
         "type_en": "Dark",
         "color": "rgb(153,0,0)",
         "pokemon": [
-            {
-                "index": 19,
-                "nameZh": "小拉達",
-                "nameJa": "コラッタ",
-                "nameEn": "Rattata",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "貪吃鬼",
-                "ability2": "活力",
-                "abilityHide": "厚脂肪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 20,
-                "nameZh": "拉達",
-                "nameJa": "ラッタ",
-                "nameEn": "Raticate",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "貪吃鬼",
-                "ability2": "活力",
-                "abilityHide": "厚脂肪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 52,
-                "nameZh": "喵喵",
-                "nameJa": "ニャース",
-                "nameEn": "Meowth",
-                "type1": "惡",
-                "type2": "",
-                "ability1": "撿拾",
-                "ability2": "技術高手",
-                "abilityHide": "膽怯",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 53,
-                "nameZh": "貓老大",
-                "nameJa": "ペルシアン",
-                "nameEn": "Persian",
-                "type1": "惡",
-                "type2": "",
-                "ability1": "毛皮大衣",
-                "ability2": "技術高手",
-                "abilityHide": "膽怯",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 88,
-                "nameZh": "臭泥",
-                "nameJa": "ベトベター",
-                "nameEn": "Grimer",
-                "type1": "毒",
-                "type2": "惡",
-                "ability1": "毒手",
-                "ability2": "貪吃鬼",
-                "abilityHide": "化學之力",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
-                "index": 89,
-                "nameZh": "臭臭泥",
-                "nameJa": "ベトベトン",
-                "nameEn": "Muk",
-                "type1": "毒",
-                "type2": "惡",
-                "ability1": "毒手",
-                "ability2": "貪吃鬼",
-                "abilityHide": "化學之力",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
             {
                 "index": 197,
                 "nameZh": "月亮伊布",
@@ -19081,19 +17937,6 @@
                 "ability2": "超幸運",
                 "abilityHide": "惡作劇之心",
                 "form": "",
-                "generation": 2
-            },
-            {
-                "index": 211,
-                "nameZh": "千針魚",
-                "nameJa": "ハリーセン",
-                "nameEn": "Qwilfish",
-                "type1": "惡",
-                "type2": "毒",
-                "ability1": "毒刺",
-                "ability2": "悠遊自如",
-                "abilityHide": "威嚇",
-                "form": "洗翠的樣子",
                 "generation": 2
             },
             {
@@ -19172,32 +18015,6 @@
                 "ability2": "飛毛腿",
                 "abilityHide": "自信過度",
                 "form": "",
-                "generation": 3
-            },
-            {
-                "index": 263,
-                "nameZh": "蛇紋熊",
-                "nameJa": "ジグザグマ",
-                "nameEn": "Zigzagoon",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "撿拾",
-                "ability2": "貪吃鬼",
-                "abilityHide": "飛毛腿",
-                "form": "伽勒爾的樣子",
-                "generation": 3
-            },
-            {
-                "index": 264,
-                "nameZh": "直衝熊",
-                "nameJa": "マッスグマ",
-                "nameEn": "Linoone",
-                "type1": "惡",
-                "type2": "一般",
-                "ability1": "撿拾",
-                "ability2": "貪吃鬼",
-                "abilityHide": "飛毛腿",
-                "form": "伽勒爾的樣子",
                 "generation": 3
             },
             {
@@ -19394,19 +18211,6 @@
                 "abilityHide": "",
                 "form": "",
                 "generation": 4
-            },
-            {
-                "index": 503,
-                "nameZh": "大劍鬼",
-                "nameJa": "ダイケンキ",
-                "nameEn": "Samurott",
-                "type1": "水",
-                "type2": "惡",
-                "ability1": "激流",
-                "ability2": "",
-                "abilityHide": "鋒銳",
-                "form": "洗翠的樣子",
-                "generation": 5
             },
             {
                 "index": 509,
@@ -19995,7 +18799,7 @@
             }
         ]
     },
-    {
+    "妖精": {
         "type_zh": "妖精",
         "type_en": "Fairy",
         "color": "rgb(255,51,204)",
@@ -20027,19 +18831,6 @@
                 "generation": 1
             },
             {
-                "index": 38,
-                "nameZh": "九尾",
-                "nameJa": "キュウコン",
-                "nameEn": "Ninetales",
-                "type1": "冰",
-                "type2": "妖精",
-                "ability1": "雪隱",
-                "ability2": "",
-                "abilityHide": "降雪",
-                "form": "阿羅拉的樣子",
-                "generation": 1
-            },
-            {
                 "index": 39,
                 "nameZh": "胖丁",
                 "nameJa": "プリン",
@@ -20063,32 +18854,6 @@
                 "ability2": "好勝",
                 "abilityHide": "察覺",
                 "form": "",
-                "generation": 1
-            },
-            {
-                "index": 78,
-                "nameZh": "烈焰馬",
-                "nameJa": "ギャロップ",
-                "nameEn": "Rapidash",
-                "type1": "超能力",
-                "type2": "妖精",
-                "ability1": "逃跑",
-                "ability2": "粉彩護幕",
-                "abilityHide": "危險預知",
-                "form": "伽勒爾的樣子",
-                "generation": 1
-            },
-            {
-                "index": 110,
-                "nameZh": "雙彈瓦斯",
-                "nameJa": "マタドガス",
-                "nameEn": "Weezing",
-                "type1": "毒",
-                "type2": "妖精",
-                "ability1": "飄浮",
-                "ability2": "化學變化氣體",
-                "abilityHide": "薄霧製造者",
-                "form": "伽勒爾的樣子",
                 "generation": 1
             },
             {
@@ -20860,4 +19625,4 @@
             }
         ]
     }
-]
+}
